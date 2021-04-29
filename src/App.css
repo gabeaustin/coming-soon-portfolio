@@ -8,22 +8,21 @@
 }
 
 .mainPageDiv {
-  font-size: 72px;
+  font-size: 68px;
 }
 
 .mainPageFooter {
-    /* background-color: #49C5B6; */
-    background-color: #ffaf00;
-    font-size: 30px;    
-    color: #444;
+  background-color: #ffaf00;
+  font-size: 30px;
+  color: #444;
 }
 
 a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 a:visited {
-    color: #444;
+  color: #444;
 }
 
 /* Start Terminal Colors */
@@ -49,3 +48,35 @@ a:visited {
   color: #444444;
 }
 /* End Terminal Colors */
+
+/* Start Media Queries */
+@media (min-width: 0) {
+  .mainPageDiv {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 576px) {
+  .mainPageDiv {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainPageDiv {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainPageDiv {
+    font-size: 58px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .mainPageDiv {
+    font-size: 68px;
+  }
+}
+/* End Media Queries */
