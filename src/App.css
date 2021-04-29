@@ -2,3 +2,36 @@
   text-align: center;
   font-family: "Courier Prime", monospace;
 }
+
+#mainBody {
+  background-color: #444444;
+}
+
+.mainPageDiv {
+  font-size: 72px;
+
+}
+
+/* Start Terminal Colors */
+.white {
+  color: #fff;
+}
+.blue {
+  color: #87afff;
+}
+.green {
+  color: #00d700;
+}
+.yellow {
+  color: #ffd700;
+}
+.orange {
+  color: #ffaf00;
+}
+.grey {
+  color: #eeeeee;
+}
+.black {
+  color: #444444;
+}
+/* End Terminal Colors */

@@ -1,18 +1,20 @@
 import "./App.css";
-import { Button } from "reactstrap";
 
 function App() {
   return (
     <div className="App">
-      <h1>Coming Soon</h1>
-      <Button color="success">Coming Soon!</Button>
-
+      <div>
         <div className="mainPageDiv">
-            import &#123; ComingSoon &#125; from "gabrielAustin";
+          <span className="orange">import</span>{" "}
+          <span className="yellow">&#123;</span>{" "}
+          <span className="white">ComingSoon</span>{" "}
+          <span className="yellow">&#125;</span>{" "}
+          <span className="orange">from</span>{" "}
+          <span className="green">"gabrielAustin"</span>
+          <span className="grey">;</span>
         </div>
-      <footer>
-
-      </footer>
+        <footer></footer>
+      </div>
     </div>
   );
 }
