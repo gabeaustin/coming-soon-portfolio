@@ -13,7 +13,15 @@ function App() {
           <span className="green">"gabrielAustin"</span>
           <span className="grey">;</span>
         </div>
-        <footer></footer>
+        <footer className="mainPageFooter p-3 mt-auto">
+          See this code on{" "}
+          <a
+            href="https://github.com/gabeaustin"
+            target="_blank"
+          >
+            Github
+          </a>
+        </footer>
       </div>
     </div>
   );
