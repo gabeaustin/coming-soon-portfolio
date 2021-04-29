@@ -11,6 +11,7 @@ Easy enough, right:interrobang:
 
 :heavy_check_mark:&nbsp;&nbsp; React <br />
 :heavy_check_mark:&nbsp;&nbsp; Bootstrap
+:heavy_check_mark:&nbsp;&nbsp; Node Package Manager (NPM)
 
 <br/>
 <br/>
