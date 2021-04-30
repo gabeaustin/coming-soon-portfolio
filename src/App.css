@@ -10,11 +10,13 @@
 .mainPageDivContainer {
   border: royalblue 2px solid;
   height: 100vh;
+  /* margin-top: 12.5%; */
 }
 
 .mainPageDiv {
   font-size: 68px;
   border: orange 2px solid;
+  margin-top: 2em;
 }
 
 .mainPageFooter {
@@ -64,11 +66,19 @@ a:visited {
   .mainPageDiv {
     font-size: 28px;
   }
+
+  .mainPageDiv {
+    margin-top: 2.5em;
+  }
 }
 
 @media (min-width: 576px) {
   .mainPageDiv {
     font-size: 38px;
+  }
+
+  .mainPageDiv {
+    margin-top: 2.5em;
   }
 }
 

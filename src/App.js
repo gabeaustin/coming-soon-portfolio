@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function App() {
   return (
     <div className="App">
-      <div className="mainPageDivContainer container col-md-12">
-        <div className="mainPageDiv m-auto">
+      <div className="mainPageDivContainer container col-md-12 center">
+        <div className="mainPageDiv">
           <i className="fas fa-github"></i>
           <i className="fab fa-github"></i>
           <span className="orange">import</span>{" "}
@@ -16,6 +16,7 @@ function App() {
           <span className="green">"gabeAustin"</span>
           <span className="grey">;</span>
         </div>
+      </div>
         <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
           <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
             <FaLinkedin className="white mainPageFooterIcons mx-4" />
@@ -24,7 +25,6 @@ function App() {
             <FaGithub className="white mainPageFooterIcons mx-4" />
           </a>
         </footer>
-      </div>
     </div>
   );
 }
