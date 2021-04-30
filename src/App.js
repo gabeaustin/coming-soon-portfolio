@@ -1,12 +1,15 @@
 import "./App.css";
+import { FaBeer } from "react-icons/fa";
+// import Icons from "bootstrap-icons";
 
 function App() {
-    // const coffee = <FontAwesomeIcon icon={faCoffee} />;
-    const coffee = <FontAwesomeIcon icon={['far', 'coffee']} />
   return (
     <div className="App">
       <div className="mainPageDivContainer container col-md-12">
         <div className="mainPageDiv m-auto">
+          <i className="fas fa-github"></i>
+          <i className="fab fa-github"></i>
+          <FaBeer />
           <span className="orange">import</span>{" "}
           <span className="yellow">&#123;</span>
           <span className="white">ComingSoon</span>
@@ -20,9 +23,6 @@ function App() {
           <a href="https://github.com/gabeaustin" target="_blank">
             Github
           </a>
-          <FontAwesomeIcon class="fas fa-github white" />&#xf09b;
-          { coffee }
-          <i class="fas fa-bookmark"></i>
         </footer>
       </div>
     </div>
