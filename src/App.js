@@ -1,10 +1,12 @@
 import "./App.css";
+import NonDarkMode from "./components/NonDarkMode";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
-      <div className="mainPageDivContainer container col-md-12 center">
+      <div className="container col-md-12">
         <div className="mainPageDiv">
           <i className="fas fa-github"></i>
           <i className="fab fa-github"></i>
@@ -16,15 +18,19 @@ function App() {
           <span className="green">"gabeAustin"</span>
           <span className="grey">;</span>
         </div>
+        <div>
+            <NonDarkMode />
+            <button>Light Mode</button>
+        </div>
       </div>
-        <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
-          <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
-            <FaLinkedin className="white mainPageFooterIcons mx-4" />
-          </a>
-          <a href="https://github.com/gabeaustin" target="_blank">
-            <FaGithub className="white mainPageFooterIcons mx-4" />
-          </a>
-        </footer>
+      <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
+        <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
+          <FaLinkedin className="white mainPageFooterIcons mx-4" />
+        </a>
+        <a href="https://github.com/gabeaustin" target="_blank">
+          <FaGithub className="white mainPageFooterIcons mx-4" />
+        </a>
+      </footer>
     </div>
   );
 }

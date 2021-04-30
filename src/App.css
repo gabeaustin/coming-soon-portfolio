@@ -7,34 +7,38 @@
   background-color: #444;
 }
 
-.mainPageDivContainer {
-  border: royalblue 2px solid;
-  height: 100vh;
-  /* margin-top: 12.5%; */
-}
-
 .mainPageDiv {
   font-size: 68px;
-  border: orange 2px solid;
   margin-top: 2em;
 }
 
 .mainPageFooter {
   background-color: #ffaf00;
   font-size: 30px;
-  color: #444;
 }
 
 .mainPageFooterIcons {
   font-size: 40px;
 }
 
-a:hover {
-  color: #fff;
+.non-dark-mode {
+  background-color: #eee;
 }
 
-a:visited {
-  color: #444;
+.myStyle {
+    background-color: salmon;
+    color: green;
+    border: 3px solid white;
+}
+
+.darkModeStyle {
+    color: "red";
+    background-color: "#000";
+}
+
+.lightModeStyle {
+    color: "green";
+    background-color: "#fff";
 }
 
 /* Start Terminal Colors */
@@ -54,10 +58,10 @@ a:visited {
   color: #ffaf00;
 }
 .grey {
-  color: #eeeeee;
+  color: #eee;
 }
 .black {
-  color: #444444;
+  color: #444;
 }
 /* End Terminal Colors */
 
