@@ -7,8 +7,14 @@
   background-color: #444;
 }
 
+.mainPageDivContainer {
+  border: royalblue 2px solid;
+  height: 100vh;
+}
+
 .mainPageDiv {
   font-size: 68px;
+  border: orange 2px solid;
 }
 
 .mainPageFooter {

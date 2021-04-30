@@ -3,8 +3,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>
-        <div className="mainPageDiv col-md-12">
+      <div className="mainPageDivContainer container col-md-12">
+        <div className="mainPageDiv m-auto">
           <span className="orange">import</span>{" "}
           <span className="yellow">&#123;</span>
           <span className="white">ComingSoon</span>
@@ -15,12 +15,10 @@ function App() {
         </div>
         <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
           See this code on{" "}
-          <a
-            href="https://github.com/gabeaustin"
-            target="_blank"
-          >
+          <a href="https://github.com/gabeaustin" target="_blank">
             Github
           </a>
+          <i class="fa fa-github"></i>
         </footer>
       </div>
     </div>
