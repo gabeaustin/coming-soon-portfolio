@@ -1,6 +1,4 @@
 import "./App.css";
-import NonDarkMode from "./components/NonDarkMode";
-
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
@@ -17,10 +15,6 @@ function App() {
           <span className="orange">from</span>{" "}
           <span className="green">"gabeAustin"</span>
           <span className="grey">;</span>
-        </div>
-        <div>
-            <NonDarkMode />
-            <button>Light Mode</button>
         </div>
       </div>
       <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
