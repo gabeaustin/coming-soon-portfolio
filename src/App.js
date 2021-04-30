@@ -17,12 +17,12 @@ function App() {
           <span className="grey">;</span>
         </div>
         <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
-          <FaLinkedin className="white mainPageFooterIcons mx-4" />
-          See this code on{" "}
-          <a href="https://github.com/gabeaustin" target="_blank">
-            Github
+          <a href="https://www.linkedin.com/in/gabrielaustin/" target="_blank">
+            <FaLinkedin className="white mainPageFooterIcons mx-4" />
           </a>
-          <FaGithub className="white mainPageFooterIcons mx-4" />
+          <a href="https://github.com/gabeaustin" target="_blank">
+            <FaGithub className="white mainPageFooterIcons mx-4" />
+          </a>
         </footer>
       </div>
     </div>
