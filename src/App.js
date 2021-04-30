@@ -1,6 +1,8 @@
 import "./App.css";
 
 function App() {
+    // const coffee = <FontAwesomeIcon icon={faCoffee} />;
+    const coffee = <FontAwesomeIcon icon={['far', 'coffee']} />
   return (
     <div className="App">
       <div className="mainPageDivContainer container col-md-12">
@@ -18,7 +20,9 @@ function App() {
           <a href="https://github.com/gabeaustin" target="_blank">
             Github
           </a>
-          <i class="fa fa-github"></i>
+          <FontAwesomeIcon class="fas fa-github white" />&#xf09b;
+          { coffee }
+          <i class="fas fa-bookmark"></i>
         </footer>
       </div>
     </div>
