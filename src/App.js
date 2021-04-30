@@ -1,6 +1,5 @@
 import "./App.css";
-import { FaBeer } from "react-icons/fa";
-// import Icons from "bootstrap-icons";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
         <div className="mainPageDiv m-auto">
           <i className="fas fa-github"></i>
           <i className="fab fa-github"></i>
-          <FaBeer />
           <span className="orange">import</span>{" "}
           <span className="yellow">&#123;</span>
           <span className="white">ComingSoon</span>
@@ -19,10 +17,12 @@ function App() {
           <span className="grey">;</span>
         </div>
         <footer className="mainPageFooter p-3 mt-auto fixed-bottom">
+          <FaLinkedin className="white mainPageFooterIcons mx-4" />
           See this code on{" "}
           <a href="https://github.com/gabeaustin" target="_blank">
             Github
           </a>
+          <FaGithub className="white mainPageFooterIcons mx-4" />
         </footer>
       </div>
     </div>

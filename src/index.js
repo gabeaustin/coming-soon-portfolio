@@ -3,7 +3,4 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import { FaBeer } from "bootstrap-icons";
-
-
 ReactDOM.render(<App />, document.getElementById("root"));

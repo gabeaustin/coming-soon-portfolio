@@ -23,6 +23,10 @@
   color: #444;
 }
 
+.mainPageFooterIcons {
+    font-size: 40px;
+}
+
 a:hover {
   color: #fff;
 }
