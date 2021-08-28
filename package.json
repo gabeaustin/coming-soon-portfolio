@@ -1,7 +1,7 @@
 {
   "name": "gabes_coming_soon_portfolio",
   "version": "0.1.0",
-  "homepage": "https://www.myboygabe.com",
+  "homepage": "https://www.myboygabe.com/projects/coming-soon",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
