@@ -21,19 +21,10 @@
   font-size: 40px;
 }
 
-.non-dark-mode {
-  background-color: #eee;
-}
-
 .myStyle {
     background-color: salmon;
     color: green;
     border: 3px solid white;
-}
-
-.darkModeStyle {
-    color: "red";
-    background-color: "#000";
 }
 
 .lightModeStyle {

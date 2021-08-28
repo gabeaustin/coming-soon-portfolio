@@ -1,7 +1,7 @@
 {
   "name": "gabes_coming_soon_portfolio",
   "version": "0.1.0",
-  "homepage": "https://gabeaustin.github.io/coming-soon-portfolio",
+  "homepage": "https://www.myboygabe.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -15,7 +15,6 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
-    "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
@@ -24,12 +23,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+    },
   "eslintConfig": {
     "extends": [
       "react-app",
